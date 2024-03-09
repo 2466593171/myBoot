@@ -11,6 +11,7 @@ import java.io.IOException;
 @Component
 public class ConnectConfig {
     public Document Conneect(String type){
+        //123
         //伪装成为浏览器，有的网站爬取数据会阻止访问，伪装成浏览器可以访问，这里我伪装成Google浏览器
 //        Connection conn = Jsoup.connect(WebsiteConfig.SHU_QI+type)
 //                .userAgent("Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36 Edg/120.0.0.0")
